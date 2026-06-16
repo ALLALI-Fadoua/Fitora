@@ -63,7 +63,7 @@ const Hero = ({ onNavigate }) => {
                 {/* Badge */}
                 <div className="inline-flex items-center gap-2 bg-amber-500/10 border border-amber-500/30 rounded-full px-4 py-1 text-xs text-amber-400 mb-6">
                     <span className="w-1.5 h-1.5 rounded-full bg-amber-400 animate-pulse" />
-                    منصة اللياقة الأولى في الجزائر
+                    منصة التدريب والتطوير المهني الذكية                         
                 </div>
 
                 <h1 className="text-4xl md:text-6xl font-black leading-tight mb-4 bg-gradient-to-r from-white via-amber-300 to-white bg-clip-text text-transparent whitespace-pre-line">
