@@ -4,7 +4,7 @@ import QuickActions from './QuickActions';
 import FeaturedSessions from './FeaturedSessions';
 import NewCourses from './NewCourses';
 import FeaturedCoaches from './FeaturedCoaches';
-import WhyFITORA from './WhyFITORA';
+import WhyFITORA from './WhyFitora';
 import SpecialOffers from './SpecialOffers';
 import Footer from './Footer';
 
