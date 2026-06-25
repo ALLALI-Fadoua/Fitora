@@ -12,7 +12,7 @@ const Header = ({ onNavigate }) => {
                 onClick={() => navigate('/')}
             >
                 <img src={logo} alt="FITORA" className="h-9 w-auto object-contain" />
-                <span className="font-black text-xl tracking-wide bg-gradient-to-r from-amber-400 to-orange-500 bg-clip-text text-transparent hidden sm:block">
+                <span className="font-black text-xl tracking-wide bg-gradient-to-r from-emerald-400 to-teal-500 bg-clip-text text-transparent hidden sm:block">
                     FITORA
                 </span>
             </div>
@@ -22,8 +22,8 @@ const Header = ({ onNavigate }) => {
                 <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-zinc-500 pointer-events-none" />
                 <input
                     type="text"
-                    placeholder="ابحث عن كوتش، جلسة أو دورة تدريبية..."
-                    className="w-full bg-[#18181B] border border-[#2A2A30] rounded-xl px-4 py-2 pr-4 pl-10 text-sm text-white placeholder-zinc-500 outline-none focus:border-amber-500 focus:bg-[#1E1E22] transition"
+                    placeholder= "ابحث عن مدرب رياضي، حصة تدريبية أو برنامج لياقة بدنية..."
+                    className="w-full bg-[#18181B] border border-[#2A2A30] rounded-xl px-4 py-2 pr-4 pl-10 text-sm text-white placeholder-zinc-500 outline-none focus:border-emerald-500 focus:bg-[#1E1E22] transition"
                 />
             </div>
 
@@ -31,13 +31,13 @@ const Header = ({ onNavigate }) => {
             <div className="flex items-center gap-3">
                 <button
                     onClick={() => navigate('/login')}
-                    className="border border-[#383840] text-white rounded-xl px-5 py-[7px] text-sm font-medium hover:border-amber-500 hover:text-amber-400 transition"
+                    className="border border-[#383840] text-white rounded-xl px-5 py-[7px] text-sm font-medium hover:border-emerald-500 hover:text-emerald-400 transition"
                 >
                     تسجيل الدخول
                 </button>
                 <button
                     onClick={() => navigate('/signup')}
-                    className="bg-amber-500 text-black rounded-xl px-5 py-[7px] text-sm font-bold hover:bg-amber-400 transition"
+                    className="bg-emerald-500 text-black rounded-xl px-5 py-[7px] text-sm font-bold hover:bg-emerald-400 transition"
                 >
                     ابدأ الآن
                 </button>

@@ -8,7 +8,7 @@ const Footer = () => (
                 <div>
                     <div className="flex items-center gap-2 mb-3">
                         <img src={logo} alt="FITORA" className="h-9 w-auto object-contain" />
-                        <span className="font-black text-xl bg-gradient-to-r from-amber-400 to-orange-500 bg-clip-text text-transparent">
+                        <span className="font-black text-xl bg-gradient-to-r from-emerald-400 to-teal-500 bg-clip-text text-transparent">
                             FITORA
                         </span>
                     </div>
@@ -19,7 +19,7 @@ const Footer = () => (
                         {['ti-brand-facebook','ti-brand-linkedin','ti-brand-instagram','ti-brand-youtube'].map(icon => (
                             <button
                                 key={icon}
-                                className="w-9 h-9 rounded-lg bg-[#18181B] border border-[#2A2A30] flex items-center justify-center text-zinc-400 hover:bg-amber-500 hover:border-amber-500 hover:text-black transition text-sm"
+                                className="w-9 h-9 rounded-lg bg-[#18181B] border border-[#2A2A30] flex items-center justify-center text-zinc-400 hover:bg-emerald-500 hover:border-emerald-500 hover:text-black transition text-sm"
                             >
                                 <i className={`ti ${icon}`} />
                             </button>
@@ -38,7 +38,7 @@ const Footer = () => (
                         <ul className="space-y-2">
                             {col.links.map(link => (
                                 <li key={link}>
-                                    <a href="#" className="text-zinc-500 text-sm hover:text-amber-400 transition">
+                                    <a href="#" className="text-zinc-500 text-sm hover:text-emerald-400 transition">
                                         {link}
                                     </a>
                                 </li>

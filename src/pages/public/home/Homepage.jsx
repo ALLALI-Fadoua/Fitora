@@ -2,7 +2,6 @@ import Header from './Header';
 import Hero from './Hero';
 import QuickActions from './QuickActions';
 import FeaturedSessions from './FeaturedSessions';
-import NewCourses from './NewCourses';
 import FeaturedCoaches from './FeaturedCoaches';
 import WhyFITORA from './WhyFitora';
 import SpecialOffers from './SpecialOffers';
@@ -17,7 +16,6 @@ const Homepage = ({ onNavigate }) => {
                 <QuickActions onNavigate={onNavigate} />
                 <FeaturedSessions onNavigate={onNavigate} />
                 <div className="h-px bg-[#2A2A30]" />
-                <NewCourses onNavigate={onNavigate} />
                 <FeaturedCoaches onNavigate={onNavigate} />
                 <div className="h-px bg-[#2A2A30]" />
                 <WhyFITORA />

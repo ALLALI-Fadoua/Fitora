@@ -1,10 +1,10 @@
 import { Calendar, BookOpen, Users, Award } from 'lucide-react';
 
 const actions = [
-    { icon: Calendar, label: 'احجز جلسة كوتشينغ', sub: '1,200 جلسة متاحة', badge: '1,200', amber: true,  route: 'sessions' },
-    { icon: BookOpen, label: 'الدورات التدريبية',  sub: '340 دورة متاحة',   badge: '340',   amber: true,  route: 'courses'  },
-    { icon: Users,    label: 'تصفح الكوتشات',      sub: '180 كوتش محترف',   badge: null,    amber: false, route: 'coaches'  },
-    { icon: Award,    label: 'الشهادات والبرامج',  sub: 'برامج معتمدة دولياً', badge: null, amber: false, route: 'programs' },
+    { icon: Calendar, label: 'احجز جلسة تدريب', sub: '1,200 جلسة متاحة', badge: '1,200', active: true,  route: 'sessions' },
+    { icon: BookOpen, label: 'البرامج الرياضية',  sub: '340 برنامج متاح',   badge: '340',   active: true,  route: 'courses'  },
+    { icon: Users,    label: 'تصفح المدربين',      sub: '180 مدرب لياقة محترف',   badge: null,    active: false, route: 'coaches'  },
+    { icon: Award,    label: 'الشهادات والبرامج',  sub: 'برامج معتمدة دولياً', badge: null, active: false, route: 'programs' },
 ];
 
 const QuickActions = ({ onNavigate }) => (
@@ -15,14 +15,14 @@ const QuickActions = ({ onNavigate }) => (
                     <button
                         key={i}
                         onClick={() => onNavigate?.(a.route)}
-                        className="group relative bg-[#18181B] border border-[#2A2A30] rounded-2xl p-6 text-center hover:border-amber-500 hover:-translate-y-1 transition-all text-right"
+                        className="group relative bg-[#18181B] border border-[#2A2A30] rounded-2xl p-6 text-center hover:border-emerald-500 hover:-translate-y-1 transition-all text-right"
                     >
                         {a.badge && (
-                            <span className="absolute top-3 left-3 bg-amber-500 text-black rounded-full px-2 py-0.5 text-[10px] font-bold">
+                            <span className="absolute top-3 left-3 bg-emerald-500 text-black rounded-full px-2 py-0.5 text-[10px] font-bold">
                                 {a.badge}
                             </span>
                         )}
-                        <div className={`w-12 h-12 rounded-xl flex items-center justify-center mx-auto mb-3 ${a.amber ? 'bg-amber-500/15 text-amber-400' : 'bg-zinc-700/30 text-zinc-400'}`}>
+                        <div className={`w-12 h-12 rounded-xl flex items-center justify-center mx-auto mb-3 ${a.active ? 'bg-emerald-500/15 text-emerald-400' : 'bg-zinc-700/30 text-zinc-400'}`}>
                             <a.icon className="w-5 h-5" />
                         </div>
                         <p className="text-sm font-bold text-white">{a.label}</p>
