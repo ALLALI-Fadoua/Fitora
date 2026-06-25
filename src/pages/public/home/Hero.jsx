@@ -4,17 +4,17 @@ const heroSlides = [
     {
         title: 'طوّر جسمك مع\nأفضل مدربي اللياقة',
         description: 'جلسات تدريب رياضي احترافية، برامج تغذية معتمدة، ومدربون متخصصون\nكل ما تحتاجه لتحقيق هدفك الرياضي في مكان واحد',
-        image: 'https://images.pexels.com/photos/1547248/pexels-photo-1547248.jpeg?auto=compress&cs=tinysrgb&w=1920',
+        image: 'https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&cs=tinysrgb&w=1920',
     },
     {
         title: 'جلسات تدريب\nشخصي حصرية',
         description: 'تمرّن مع نخبة من مدربي اللياقة البدنية المعتمدين',
-        image: 'https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=1920',
+        image: 'https://images.pexels.com/photos/1552252/pexels-photo-1552252.jpeg?auto=compress&cs=tinysrgb&w=1920',
     },
     {
         title: 'اكتشف برامج\nاللياقة البدنية',
         description: 'برامج تدريبية متكاملة مع شهادات معتمدة دولياً',
-        image: 'https://images.pexels.com/photos/2261477/pexels-photo-2261477.jpeg?auto=compress&cs=tinysrgb&w=1920',
+        image: 'https://images.pexels.com/photos/703012/pexels-photo-703012.jpeg?auto=compress&cs=tinysrgb&w=1920',
     },
 ];
 

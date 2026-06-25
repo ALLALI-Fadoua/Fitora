@@ -9,7 +9,7 @@ export const SESSIONS = [
         availableSeats: 12,
         price: 0,
         rating: 4.9, reviews: 124,
-        image: 'https://images.pexels.com/photos/1547248/pexels-photo-1547248.jpeg?auto=compress&cs=tinysrgb&w=600',
+        image: 'https://images.pexels.com/photos/1552252/pexels-photo-1552252.jpeg?auto=compress&cs=tinysrgb&w=600',
         coachId: { _id: 'co2', fullName: 'أمينة تجريبي' },
     },
     {
@@ -21,7 +21,7 @@ export const SESSIONS = [
         availableSeats: 8,
         price: 3500,
         rating: 4.7, reviews: 89,
-        image: 'https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg?auto=compress&cs=tinysrgb&w=600',
+        image: 'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600',
         coachId: { _id: 'co1', fullName: 'كريم تجريبي' },
     },
     {
@@ -46,7 +46,7 @@ export const SESSIONS = [
         availableSeats: 5,
         price: 5500,
         rating: 4.6, reviews: 63,
-        image: 'https://images.pexels.com/photos/3076509/pexels-photo-3076509.jpeg?auto=compress&cs=tinysrgb&w=600',
+        image: 'https://images.pexels.com/photos/3822622/pexels-photo-3822622.jpeg?auto=compress&cs=tinysrgb&w=600',
         coachId: { _id: 'co4', fullName: 'سارة تجريبي' },
     },
 ];
@@ -62,7 +62,7 @@ export const COURSES = [
         modules: Array(12).fill(null),
         price: 0,
         hasCertificate: true,
-        image: 'https://images.pexels.com/photos/2261477/pexels-photo-2261477.jpeg?auto=compress&cs=tinysrgb&w=600',
+        image: 'https://images.pexels.com/photos/8968046/pexels-photo-8968046.jpeg?auto=compress&cs=tinysrgb&w=600',
     },
     {
         _id: 'c2',
@@ -73,7 +73,7 @@ export const COURSES = [
         modules: Array(8).fill(null),
         price: 12000,
         hasCertificate: true,
-        image: 'https://images.pexels.com/photos/1547248/pexels-photo-1547248.jpeg?auto=compress&cs=tinysrgb&w=600',
+        image: 'https://images.pexels.com/photos/669580/pexels-photo-669580.jpeg?auto=compress&cs=tinysrgb&w=600',
     },
     {
         _id: 'c3',
@@ -84,7 +84,7 @@ export const COURSES = [
         modules: Array(20).fill(null),
         price: 25000,
         hasCertificate: false,
-        image: 'https://images.pexels.com/photos/2402777/pexels-photo-2402777.jpeg?auto=compress&cs=tinysrgb&w=600',
+        image: 'https://images.pexels.com/photos/16513597/pexels-photo-16513597.jpeg?auto=compress&cs=tinysrgb&w=600',
     },
     {
         _id: 'c4',
@@ -95,7 +95,7 @@ export const COURSES = [
         modules: Array(10).fill(null),
         price: 9500,
         hasCertificate: true,
-        image: 'https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg?auto=compress&cs=tinysrgb&w=600',
+        image: 'https://images.pexels.com/photos/34213999/pexels-photo-34213999.jpeg?auto=compress&cs=tinysrgb&w=600',
     },
 ];
 
@@ -272,7 +272,7 @@ export const FAVORITES = [
         instructor: 'أمينة تجريبي',
         rating: 4.9,
         price: 0,
-        image: 'https://images.pexels.com/photos/1547248/pexels-photo-1547248.jpeg?auto=compress&cs=tinysrgb&w=600',
+        image: 'https://images.pexels.com/photos/260352/pexels-photo-260352.jpeg?auto=compress&cs=tinysrgb&w=600',
     },
     {
         id: 'f3',
@@ -281,7 +281,7 @@ export const FAVORITES = [
         instructor: 'كريم تجريبي',
         rating: 4.7,
         price: 12000,
-        image: 'https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg?auto=compress&cs=tinysrgb&w=600',
+        image: 'https://images.pexels.com/photos/669580/pexels-photo-669580.jpeg?auto=compress&cs=tinysrgb&w=600',
     },
     {
         id: 'f4',
@@ -290,7 +290,7 @@ export const FAVORITES = [
         instructor: 'كريم تجريبي',
         rating: 5.0,
         price: 8000,
-        image: 'https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=600',
+        image: 'https://images.pexels.com/photos/4162451/pexels-photo-4162451.jpeg?auto=compress&cs=tinysrgb&w=600',
     },
     {
         id: 'f5',
@@ -588,7 +588,7 @@ export const COACH_COURSES = [
         status: 'نشط',
         enrolledStudents: 10,
         confirmedStudents: 10,
-        image: 'https://images.pexels.com/photos/2261477/pexels-photo-2261477.jpeg?auto=compress&cs=tinysrgb&w=600',
+        image: 'https://images.pexels.com/photos/8968046/pexels-photo-8968046.jpeg?auto=compress&cs=tinysrgb&w=600',
         finalExamTitle: 'الامتحان النهائي لأساسيات اللياقة',
         passMark: 70,
         finalExamQuestions: [
@@ -617,7 +617,7 @@ export const COACH_COURSES = [
         status: 'نشط',
         enrolledStudents: 28,
         confirmedStudents: 25,
-        image: 'https://images.pexels.com/photos/1547248/pexels-photo-1547248.jpeg?auto=compress&cs=tinysrgb&w=600',
+        image: 'https://images.pexels.com/photos/669580/pexels-photo-669580.jpeg?auto=compress&cs=tinysrgb&w=600',
         finalExamTitle: 'الامتحان النهائي لكمال الأجسام',
         passMark: 75,
         finalExamQuestions: [
@@ -646,7 +646,7 @@ export const COACH_COURSES = [
         status: 'نشط',
         enrolledStudents: 25,
         confirmedStudents: 25,
-        image: 'https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg?auto=compress&cs=tinysrgb&w=600',
+        image: 'https://images.pexels.com/photos/34213999/pexels-photo-34213999.jpeg?auto=compress&cs=tinysrgb&w=600',
         finalExamTitle: 'الامتحان النهائي للتغذية الرياضية',
         passMark: 60,
         finalExamQuestions: [
